@@ -1,2 +1,4 @@
 ***Working on it***
 date -> 05/11
+**Started with dependencies & installations**
+date -> 08/11
