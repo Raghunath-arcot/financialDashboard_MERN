@@ -2,3 +2,7 @@
 date -> 05/11
 **Started with dependencies & installations**
 date -> 08/11
+**Basic frontend intallations** -> Done
+date -> 09/11
+**MUI Configurations & themes** 
+date -> 09/11
