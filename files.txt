@@ -1,8 +1,10 @@
 ***Working on it***
-date -> 05/11
+date -> 05/11 (Completed)
 **Started with dependencies & installations**
-date -> 08/11
+date -> 08/11 (Completed)
 **Basic frontend intallations** -> Done
-date -> 09/11
+date -> 09/11 (Completed)
 **MUI Configurations & themes** 
-date -> 09/11
+date -> 09/11 (Completed)
+** ### **
+date -> 10/11 (Pending)
