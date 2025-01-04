@@ -1,0 +1,35 @@
+https://fly.io/docs/js/ -> backend deploy documentation
+---> https://fly.io/docs/flyctl/install/ -> install this first
+==========================
+1. Verify Installation Path
+flyctl was installed to:
+
+makefile
+Copy code
+C:\Users\raotp\.fly\bin\flyctl.exe
+Ensure that the file exists at this location.
+============================
+Add flyctl to PATH
+To run flyctl from any directory, you need to add its directory to the PATH environment variable.
+
+Steps to Add to PATH:
+Press Win + R, type sysdm.cpl, and press Enter.
+Go to the Advanced tab and click Environment Variables.
+Under System variables, find Path, select it, and click Edit.
+Click New, then paste the path:
+makefile
+Copy code
+C:\Users\raotp\.fly\bin
+Click OK to save the changes.
+Restart your terminal or command prompt.
+
+==================================================fly.io=======================================================================
+NOTE: The machines for [app] have services with 'auto_stop_machines = "stop"' that will be stopped when idling
+
+-------
+Checking DNS configuration for server-floral-water-6919.fly.dev
+
+Visit your newly deployed app at https://server-floral-water-6919.fly.dev/
+=======================================
+GITHUB Create repo
+

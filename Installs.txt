@@ -1,0 +1,5 @@
+1. node: https://nodejs.org/en/download/ 
+2. npx: https://www.npmjs.com/package/npx
+3. vscode: https://code.visualstudio.com/download
+4. nodemon: https://github.com/remy/nodemon
+5. vite: https://vitejs.dev/guide/ 

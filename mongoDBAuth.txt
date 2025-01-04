@@ -1,0 +1,5 @@
+username: raghuarrao
+password: Raghu@1624104836
+
+==============link==========url===========
+mongodb+srv://raghuarrao:<db_password>@financhialdashboard.krnfz.mongodb.net/?retryWrites=true&w=majority&appName=financhialDashboard

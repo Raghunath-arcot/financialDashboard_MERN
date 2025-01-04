@@ -1,0 +1,13 @@
+the error is because the environmental variables .env that doen't exist in fly.io so we want to add mongourl directly to fly.io
+to do that https://fly.io/docs/apps/secrets/ --> open this doc and fly ctl url command use this to resolve this issue
+fly secrets set DATABASE_URL=postgres://example.com/mydb 
+
+and also we need to change the port to 3000 which is given during the fly.io launching app 
+
+
+ fly secrets set PORT=3000 MONGO_URL='mongodb+srv://raghuarrao:Raghu123@financhialdashboard.krnfz.mongodb.net/?retryWrites=true&w=majority&appName=financhialDashboard'
+
+ after this step we can run this link https://server-financial-dashboard.fly.dev/
+
+but we can see error because no routes were connected to it but when we use https://server-financial-dashboard.fly.dev/kpi/kpis
+we can check the data information running in server
