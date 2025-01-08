@@ -47,5 +47,4 @@ A **MERN stack** application to visualize and manage financial data, including K
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/financial-dashboard.git
-   cd financial-dashboard
+   
