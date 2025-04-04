@@ -88,9 +88,8 @@ export const kpis = [
       "expenses": "₹2430237.59",
       "operationalExpenses": "₹9160.18",
       "nonOperationalExpenses": "₹4106.79"
-    }
-  ]
-},
+        },
+      ],
 
       dailyData: [
         { date: "2022-01-02", revenue: "$1498.94", expenses: "$430.64" },
