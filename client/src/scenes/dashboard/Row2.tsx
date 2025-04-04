@@ -133,10 +133,10 @@ const Row2 = () => {
                     }} 
             >
           <CartesianGrid stroke={palette.grey[800]}/>
-          <XAxis type="number" dataKey="price" name="price" unit="cm" axisLine={false} style={{fontSize: "10px"}} tickFormatter={(v) => `$${v}`}/>
-          <YAxis type="number" dataKey="expense" name="expense" unit="cm" axisLine={false} style={{fontSize: "10px"}} tickFormatter={(v) => `$${v}`}/>  
+          <XAxis type="number" dataKey="price" name="price" unit="cm" axisLine={false} style={{fontSize: "10px"}} tickFormatter={(v) => `₹${v}`}/>
+          <YAxis type="number" dataKey="expense" name="expense" unit="cm" axisLine={false} style={{fontSize: "10px"}} tickFormatter={(v) => `₹${v}`}/>  
           <ZAxis type="number" range={[20]} />
-          <Tooltip  formatter={(v) => `$${v}`}/>
+          <Tooltip  formatter={(v) => `₹${v}`}/>
           <Scatter name="Product Expense Ratio" data={productExpenseData} fill={palette.tertiary[500]} />
             </ScatterChart>
       </ResponsiveContainer>
